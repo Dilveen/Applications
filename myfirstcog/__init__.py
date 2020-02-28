@@ -1,6 +1,4 @@
-from .myfristcog import MyFirstCog
-
+from .mycog import Mycog
 
 def setup(bot):
-    # Add the cog to the bot.
-    bot.add_cog(MyFirstCog())
+    bot.add_cog(Mycog(bot))
